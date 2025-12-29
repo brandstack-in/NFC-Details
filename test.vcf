@@ -1,0 +1,20 @@
+BEGIN:VCARD
+
+VERSION:3.0
+
+N:Gowtham;Nandhakumar;;;
+
+FN:Gowtham Nandhakumar
+
+ORG:Godwill
+
+TITLE:Marketing Head
+
+TEL;TYPE=CELL:+918667656583
+EMAIL:test@test.in
+
+URL:https://brandstack.in/
+
+ADR:;;Chennai;Tamil Nadu;;India
+
+END:VCARD
