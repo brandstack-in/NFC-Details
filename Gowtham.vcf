@@ -1,20 +1,12 @@
 BEGIN:VCARD
-
 VERSION:3.0
-
-N:Gowtham;N;;;
-
+N:Gowtham;Nandhakumar;;;
 FN:Gowtham Nandhakumar
-
 ORG:BrandStack
-
-TITLE:CO-Founder/CTO
-
+TITLE:Co-Founder / CTO
 TEL;TYPE=CELL:+916383267513
-EMAIL:gowtham.nandhakumar@brandstack.in
-
+EMAIL:gowtham.n@wer.in
 URL:https://brandstack.in/
-
 ADR:;;Chennai;Tamil Nadu;;India
-
+PHOTO;ENCODING=b;TYPE=JPEG:/9j/4AAQSkZJRgABAQAAAQABAAD...BASE64_DATA_HERE...
 END:VCARD
