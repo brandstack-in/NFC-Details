@@ -1,7 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
 body {
-  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #ffffff;
+  width: 320px;
+  padding: 25px;
+  border-radius: 18px;
   text-align: center;
-  background: #f7f7f7;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
 }
 
 .profile-pic {
@@ -9,16 +27,39 @@ body {
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  margin-top: 20px;
-  border: 3px solid #000;
+  border: 4px solid #2c5364;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 22px;
+  color: #333;
+}
+
+.role {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.info p {
+  font-size: 14px;
+  color: #444;
+  margin: 5px 0;
 }
 
 .btn {
   display: inline-block;
-  margin-top: 15px;
-  padding: 10px 18px;
-  background: black;
-  color: white;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #2c5364;
+  color: #fff;
   text-decoration: none;
-  border-radius: 6px;
+  border-radius: 30px;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #203a43;
 }
