@@ -12,7 +12,14 @@ body {
   align-items: center;
   justify-content: center;
 }
+.btn.whatsapp {
+  background: #25D366;
+  color: #fff;
+}
 
+.btn.whatsapp:hover {
+  background: #1ebe5d;
+}
 .business-card {
   background: #ffffff;
   width: 340px;
