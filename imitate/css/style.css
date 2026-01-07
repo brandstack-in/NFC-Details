@@ -1,0 +1,93 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn.whatsapp {
+  background: #25D366;
+  color: #fff;
+}
+
+.btn.whatsapp:hover {
+  background: #1ebe5d;
+}
+.business-card {
+  background: #ffffff;
+  width: 340px;
+  padding: 28px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+}
+
+.logo {
+  width: 90px;
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #203a43;
+}
+
+.tagline {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 18px;
+}
+
+.divider {
+  height: 2px;
+  width: 60px;
+  background: #2c5364;
+  margin: 0 auto 18px;
+  border-radius: 2px;
+}
+
+.contact p {
+  font-size: 14px;
+  color: #333;
+  margin: 6px 0;
+}
+
+.actions {
+  margin-top: 22px;
+}
+
+.btn {
+  display: block;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.btn.primary {
+  background: #2c5364;
+  color: #fff;
+}
+
+.btn.primary:hover {
+  background: #203a43;
+}
+
+.btn.secondary {
+  background: #f1f1f1;
+  color: #333;
+}
+
+.btn.secondary:hover {
+  background: #e0e0e0;
+}
