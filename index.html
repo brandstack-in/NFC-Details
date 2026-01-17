@@ -4,32 +4,59 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>BrandStack | Executive Card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
   <div class="card">
+    <div class="card-glow"></div>
+    <div class="card-inner">
 
-    <div class="header">
-      <img src="assets/profile.jpg" alt="Gowtham N" class="avatar"/>
-      <h1>Gowtham N</h1>
-      <h2>Co-Founder & CTO</h2>
-      <span class="company">BrandStack</span>
+      <div class="header">
+        <div class="avatar-wrapper">
+          <div class="avatar-ring"></div>
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face" alt="Gowtham N" class="avatar"/>
+        </div>
+        <h1>Gowtham N</h1>
+        <h2>Co-Founder & CTO</h2>
+        <div class="company-badge">
+          <span class="diamond">◆</span>
+          <span class="company">BrandStack</span>
+          <span class="diamond">◆</span>
+        </div>
+      </div>
+
+      <div class="separator">
+        <span class="sep-diamond">◆</span>
+      </div>
+
+      <div class="actions">
+        <a href="tel:+916383267513" class="action-btn">
+          <span class="icon">📞</span>
+          <span>Call</span>
+        </a>
+        <a href="mailto:gowtham@brandstack.in" class="action-btn">
+          <span class="icon">✉️</span>
+          <span>Email</span>
+        </a>
+        <a href="https://wa.me/916383267513" class="action-btn">
+          <span class="icon">💬</span>
+          <span>WhatsApp</span>
+        </a>
+        <a href="Gowtham.vcf" download class="action-btn primary">
+          <span class="icon">💾</span>
+          <span>Save Contact</span>
+        </a>
+      </div>
+
+      <div class="footer">
+        <a href="https://brandstack.in">www.brandstack.in</a>
+      </div>
+
     </div>
-
-    <div class="separator"></div>
-
-    <div class="actions">
-      <a href="tel:+916383267513">Call</a>
-      <a href="mailto:gowtham@brandstack.in">Email</a>
-      <a href="https://wa.me/916383267513">WhatsApp</a>
-      <a href="Gowtham.vcf" download>Save Contact</a>
-    </div>
-
-    <div class="footer">
-      <a href="https://brandstack.in">www.brandstack.in</a>
-    </div>
-
   </div>
 
 </body>
