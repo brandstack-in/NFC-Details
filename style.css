@@ -5,86 +5,78 @@
 body {
   margin: 0;
   font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
-  background: #0e0e0e;
-  color: #111;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background: radial-gradient(circle at top, #1a1a1a, #000000);
   min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
-  background: #ffffff;
   width: 360px;
-  padding: 32px;
-  border-radius: 14px;
-  box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+  background: linear-gradient(180deg, #111111, #000000);
+  padding: 34px 28px;
+  border-radius: 18px;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.8);
   text-align: center;
-}
-
-.header {
-  margin-bottom: 24px;
+  color: #eaeaea;
 }
 
 .avatar {
-  width: 96px;
-  height: 96px;
+  width: 92px;
+  height: 92px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 14px;
+  margin-bottom: 16px;
+  border: 2px solid #c9a24d;
 }
 
-.header h1 {
+h1 {
   font-size: 22px;
-  margin: 0;
   font-weight: 600;
-  letter-spacing: 0.2px;
+  margin: 0;
+  letter-spacing: 0.3px;
 }
 
-.header h2 {
+h2 {
   font-size: 14px;
-  margin: 6px 0;
   font-weight: 400;
-  color: #555;
+  margin: 6px 0;
+  color: #c9a24d;
 }
 
 .company {
-  font-size: 13px;
-  letter-spacing: 1.2px;
+  font-size: 12px;
+  letter-spacing: 1.4px;
   text-transform: uppercase;
-  color: #888;
+  color: #aaa;
 }
 
 .separator {
   height: 1px;
-  background: linear-gradient(to right, transparent, #ddd, transparent);
-  margin: 28px 0;
+  margin: 26px 0;
+  background: linear-gradient(to right, transparent, #c9a24d, transparent);
 }
 
 .actions a {
   display: block;
-  padding: 12px;
+  padding: 13px;
   margin-bottom: 12px;
   text-decoration: none;
   font-size: 14px;
-  color: #111;
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  color: #c9a24d;
+  border: 1px solid rgba(201,162,77,0.4);
+  border-radius: 10px;
   transition: all 0.25s ease;
 }
 
 .actions a:hover {
-  background: #111;
-  color: #fff;
-  border-color: #111;
-}
-
-.footer {
-  margin-top: 24px;
-  font-size: 13px;
+  background: #c9a24d;
+  color: #000;
 }
 
 .footer a {
+  font-size: 13px;
+  color: #888;
   text-decoration: none;
-  color: #555;
 }
