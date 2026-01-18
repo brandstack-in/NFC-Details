@@ -104,7 +104,7 @@ body::before {
 
 .avatar-wrapper {
   position: relative;
-  width: 110px;        /* square safe size */
+  width: 110px;
   height: 110px;
   display: flex;
   align-items: center;
@@ -112,12 +112,30 @@ body::before {
 }
 
 .avatar-ring {
-  width: 85%;          /* safe padding inside square */
-  height: 85%;
-  object-fit: contain; /* ⬅ VERY IMPORTANT for logos */
-  border-radius: 50%;  /* keeps circular look */
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  right: -6px;
+  bottom: -6px;
+  border-radius: 50%;
+  background: conic-gradient(
+    from 0deg,
+    #c9a24d,
+    #f5d998,
+    #c9a24d,
+    #a17f3a,
+    #c9a24d
+  );
+  animation: ringRotate 6s linear infinite;
+}
+
+.avatar {
+  width: 75%;
+  height: 75%;
+  object-fit: contain;     /* ⬅ keeps logo centered */
+  border-radius: 50%;
   background: #0a0a0a;
-  padding: 6px;        /* extra logo breathing space */
+  padding: 10px;           /* equal padding all sides */
   z-index: 1;
 }
 
