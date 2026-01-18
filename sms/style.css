@@ -104,26 +104,21 @@ body::before {
 
 .avatar-wrapper {
   position: relative;
-  display: inline-block;
-  margin-bottom: 20px;
+  width: 110px;        /* square safe size */
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .avatar-ring {
-  position: absolute;
-  top: -6px;
-  left: -6px;
-  right: -6px;
-  bottom: -6px;
-  border-radius: 50%;
-  background: conic-gradient(
-    from 0deg,
-    #c9a24d,
-    #f5d998,
-    #c9a24d,
-    #a17f3a,
-    #c9a24d
-  );
-  animation: ringRotate 6s linear infinite;
+  width: 85%;          /* safe padding inside square */
+  height: 85%;
+  object-fit: contain; /* ⬅ VERY IMPORTANT for logos */
+  border-radius: 50%;  /* keeps circular look */
+  background: #0a0a0a;
+  padding: 6px;        /* extra logo breathing space */
+  z-index: 1;
 }
 
 @keyframes ringRotate {
