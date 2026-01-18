@@ -329,11 +329,12 @@ h2 {
   font-size: 16px;
 }
 
-.footer {
-  padding-top: 8px;
+.site-link {
+  margin-bottom: 6px;
+  text-align: center;
 }
 
-.footer a {
+.site-link a {
   font-size: 13px;
   color: #666;
   text-decoration: none;
@@ -342,7 +343,7 @@ h2 {
   position: relative;
 }
 
-.footer a::after {
+.site-link a::after {
   content: "";
   position: absolute;
   bottom: -4px;
@@ -354,18 +355,23 @@ h2 {
   transform: translateX(-50%);
 }
 
-.footer a:hover {
+.site-link a:hover {
   color: #c9a24d;
 }
 
-.footer a:hover::after {
+.site-link a:hover::after {
   width: 100%;
 }
-.powered-by {
-  margin-top: 4px;
-  font-size: 8px;          
-  color: #444;
+
+/* Footer with BrandStack */
+.footer {
   text-align: center;
+  padding-top: 4px;
+}
+
+.powered-by {
+  font-size: 8px;       /* very small */
+  color: #444;
   letter-spacing: 0.4px;
   opacity: 0.7;
 }
