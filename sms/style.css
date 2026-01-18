@@ -356,7 +356,23 @@ h2 {
 .footer a:hover::after {
   width: 100%;
 }
+.powered-by {
+  margin-top: 4px;
+  font-size: 8px;          
+  color: #444;
+  text-align: center;
+  letter-spacing: 0.4px;
+  opacity: 0.7;
+}
 
+.powered-by a {
+  color: #555;
+  text-decoration: none;
+}
+
+.powered-by a:hover {
+  color: #c9a24d;
+}
 /* Responsive */
 @media (max-width: 420px) {
   .card {
