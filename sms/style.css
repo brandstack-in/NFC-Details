@@ -182,11 +182,13 @@ h2 {
 }
 
 .company {
-  font-size: 15px;
+  font-size: 14px;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #999;
-  font-weight: 700;   
+  /*color: #999;*/
+  background: linear-gradient(135deg, #bd9535 0%, #ffeaa0 50%, #bd9535 100%)
+  style: bold;
+  font-weight: 900;   
 }
 
 .separator {
