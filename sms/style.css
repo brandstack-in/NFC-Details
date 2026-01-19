@@ -187,8 +187,8 @@ h2 {
   text-transform: uppercase;
   /*color: #999;*/
   background: linear-gradient(135deg, #bd9535 0%, #ffeaa0 50%, #bd9535 100%)
-  style: bold;
-  font-weight: 700;   
+  font-style: bold;
+  font-weight: 850;   
 }
 
 .separator {
